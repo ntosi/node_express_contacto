@@ -1,0 +1,49 @@
+body {
+  background: #7474BF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(45, 177, 137), rgb(59, 6, 70)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar-brand {
+  font-family: 'Monospaced', 'verdana';
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-family: 'monospaced','verdana';
+}
+
+header img {
+  width: 50%;
+}
+
+
+
+.contenedor {
+	display: flex;
+  min-height: 90vh;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+#logo {
+  border-radius: 50%;
+	display: flex;
+}
+
+
+
+footer {
+  position: fixed;
+  min-height: 10vh;
+  bottom: 0;
+  width: 100%;
+}
+
+.jumbotron{
+  padding-top:10% ;
+  height: 85vh;
+}
